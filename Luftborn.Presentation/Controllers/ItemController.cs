@@ -20,5 +20,5 @@ namespace Luftborn.Presentation.Controllers
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(BaseResponseDataModel<GetItemDataModel>))]
         public async Task<IActionResult> Get([FromQuery] GetItemRequestModel request) =>
             await Presenter.Handle(_itemService.GetAsync, new BaseRequestDataModel<GetItemRequestModel> { Data = request });
-    }
+    } 
 }
