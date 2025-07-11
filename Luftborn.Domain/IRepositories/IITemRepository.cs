@@ -1,6 +1,6 @@
 ﻿namespace Luftborn.Domain.IRepository
 {
-    public interface IITemRepository
+    public interface IItemRepository
     {
         Task<IEnumerable<Item>> GetAllAsync();
         Task<Item?> GetByIdAsync(Guid id);

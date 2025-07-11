@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Luftborn.Infrastructure.Repositories
 {
-    internal class ItemRepository : IITemRepository
+    internal class ItemRepository : IItemRepository
     {
         private readonly LuftbornDbContext _context;
         public ItemRepository(LuftbornDbContext context) => _context = context;
