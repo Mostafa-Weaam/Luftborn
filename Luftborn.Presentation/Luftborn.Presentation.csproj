@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Luftborn.Application\Luftborn.Application.csproj" />
+    <ProjectReference Include="..\Luftborn.Infrastructure\Luftborn.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
