@@ -10,6 +10,10 @@ namespace Luftborn.Application.Mappers
         public ItemMapper()
         {
             CreateMap<Item, GetItemDataModel>();
+            CreateMap<Item, CreateItemDataModel>();
+            CreateMap<Item, UpdateItemDataModel>();
+            CreateMap<CreateItemRequestModel, Item>();
+            CreateMap<UpdateItemRequestModel, Item>();
         }
     }
 }
